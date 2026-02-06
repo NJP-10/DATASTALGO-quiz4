@@ -11,7 +11,7 @@ function Header() {
     <header>
       <Navbar expand="lg" bg="primary" variant="dark" collapseOnSelect>
         <Container fluid>
-          <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+          <Navbar.Brand href="#">Project Management</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -20,15 +20,15 @@ function Header() {
               navbarScroll
             >
               <Nav.Link href="#action1">Home</Nav.Link>
-              <Nav.Link href="#action2">Link</Nav.Link>
-              <NavDropdown title="Link" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+              <Nav.Link href="#action2">Projects</Nav.Link>
+              <NavDropdown title="Tasks" id="navbarScrollingDropdown">
+                <NavDropdown.Item href="#action3">Assigned Tasks</NavDropdown.Item>
                 <NavDropdown.Item href="#action4">
-                  Another action
+                  Available Tasks
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action5">
-                  Something else here
+                  Completed Tasks
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#" disabled>

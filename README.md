@@ -1,8 +1,43 @@
-# Getting Started with Create React App
+# Frontend Template - React Project
 
-**After cloning the project, run `npm install` to install the dependencies.**
+## Clone the Repository
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To clone this repository to your local machine, use the following command:
+
+```bash
+git clone <repository-url>
+cd frontend-template
+```
+
+Replace `<repository-url>` with the actual URL of the repository.
+
+## Requirements
+
+Before running this project, ensure you have the following installed on your machine:
+
+- **Node.js** (v14 or higher) - [Download here](https://nodejs.org/)
+- **npm** (comes with Node.js) or **yarn**
+
+To verify your installations, run:
+
+```bash
+node --version
+npm --version
+```
+
+## Installation
+
+After cloning the project, install the required dependencies by running:
+
+```bash
+npm install
+```
+
+This will install all packages listed in the `package.json` file.
+
+## Project Overview
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and includes Redux for state management with features for managing projects.
 
 ## Available Scripts
 
@@ -10,23 +45,38 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
+
+```bash
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
+
+```bash
+npm test
+```
+
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
+
+```bash
+npm run build
+```
+
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
@@ -70,3 +120,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `BACKEND`
+
+https://github.com/SanaPumasa/DATASTALGO-QUIZ4.git
